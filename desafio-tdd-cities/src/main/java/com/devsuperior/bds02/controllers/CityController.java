@@ -37,6 +37,4 @@ public class CityController {
         service.delete(id);
         return ResponseEntity.noContent().build();
     }
-
-
 }
